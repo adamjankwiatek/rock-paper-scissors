@@ -1,4 +1,38 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.input-box {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+#user-choice {
+  padding: 18px;
+  width: 300px;
+  margin: 0;
+  border-radius: 0px;
+  border: 1px solid #000;
+}
+
+#play {
+  width: 150px;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  background: #cccccc;
+  padding: 15px;
+  border-bottom: 6px solid rgb(161, 161, 161);
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#play:hover,
+#play:focus {
+  background: rgb(161, 161, 161);
 }
